@@ -1,6 +1,8 @@
 // Code goes here
 
-
+// immediately invoked function expression IIFE
+// ( function() { ... code ...}() );
+(function() {
 // "Revealing module pattern"
 var createWorker = function() {
 
@@ -34,3 +36,4 @@ worker.job2();
 worker.job1();
 
 
+}());
